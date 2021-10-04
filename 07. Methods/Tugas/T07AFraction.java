@@ -34,8 +34,8 @@ public class TO7AFraction {
 	// Method untuk fpb agar bisa disederhanakan
 	static int fpb (int x, int y) {
 		if ( (y <= x ) && 	// memeriksa apakah y lebih kecil dari x (&& = jika kondisi yang kiri
-							          //bernilai false, maka operasi yang kanan tidak akan dijalankan
-							          //karna sudah pasti hasilnya false
+					//bernilai false, maka operasi yang kanan tidak akan dijalankan
+					//karna sudah pasti hasilnya false
 							
 		(x % y == 0)) // jika sisa bagi y dan x = 0
 			return y; // maka fpb = y
